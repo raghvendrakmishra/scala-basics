@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Understanding call by value and call by name">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/DefaultArgs.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Understanding default arguments of function">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/StringOps.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/StringOps2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +62,8 @@
     "Application.Functions.executor": "Run",
     "Application.Playground.executor": "Run",
     "Application.Recursion.executor": "Run",
+    "Application.StringOps.executor": "Debug",
+    "Application.stringManipulation.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -74,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/main/scala/lectures/basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CBNvsCBV">
+  <component name="RunManager" selected="Application.stringManipulation">
     <configuration name="CBNvsCBV" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.basics.CBNvsCBV" />
       <module name="scala-part1" />
@@ -101,19 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.Playground" />
-      <module name="scala-part1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playground.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Recursion" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.basics.Recursion" />
       <module name="scala-part1" />
@@ -127,12 +117,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.basics.StringOps" />
+      <module name="scala-part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stringManipulation" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.basics.stringManipulation" />
+      <module name="scala-part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stringManipulation" />
+        <item itemvalue="Application.StringOps" />
         <item itemvalue="Application.CBNvsCBV" />
         <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.Playground" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711859283043</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Understanding default arguments of function">
+      <option name="closed" value="true" />
+      <created>1711864892239</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711864892239</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +274,18 @@
     <MESSAGE value="Functions in scala" />
     <MESSAGE value="Recursion in scala" />
     <MESSAGE value="Understanding call by value and call by name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Understanding call by value and call by name" />
+    <MESSAGE value="Understanding default arguments of function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Understanding default arguments of function" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/lectures/basics/StringOps.scala</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
