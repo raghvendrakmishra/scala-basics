@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="String manipulation">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/OOBasics.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Object-Oriented basics in Scala">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/MethodAnnotations.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +59,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.CBNvsCBV.executor": "Run",
     "Application.Functions.executor": "Run",
+    "Application.MethodAnnotations.executor": "Run",
     "Application.OOBasics.executor": "Run",
     "Application.Playground.executor": "Run",
     "Application.Recursion.executor": "Run",
@@ -77,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src/main/scala/lectures/basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OOBasics">
+  <component name="RunManager" selected="Application.MethodAnnotations">
     <configuration name="CBNvsCBV" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.basics.CBNvsCBV" />
       <module name="scala-part1" />
@@ -91,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.OOBasics" />
+    <configuration name="MethodAnnotations" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.MethodAnnotations" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.basics.Recursion" />
+    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.OOBasics" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.basics.*" />
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodAnnotations" />
         <item itemvalue="Application.OOBasics" />
         <item itemvalue="Application.stringManipulation" />
         <item itemvalue="Application.StringOps" />
         <item itemvalue="Application.CBNvsCBV" />
-        <item itemvalue="Application.Recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711870038766</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Object-Oriented basics in Scala">
+      <option name="closed" value="true" />
+      <created>1711878636672</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711878636672</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,7 +293,8 @@
     <MESSAGE value="Understanding call by value and call by name" />
     <MESSAGE value="Understanding default arguments of function" />
     <MESSAGE value="String manipulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="String manipulation" />
+    <MESSAGE value="Object-Oriented basics in Scala" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object-Oriented basics in Scala" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
