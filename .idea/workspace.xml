@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Recursion in scala">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/CBNvsCBV.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Understanding call by value and call by name">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/DefaultArgs.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711858281663</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Understanding call by value and call by name">
+      <option name="closed" value="true" />
+      <created>1711859283043</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711859283043</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +248,7 @@
     <MESSAGE value="Expressions in scala" />
     <MESSAGE value="Functions in scala" />
     <MESSAGE value="Recursion in scala" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion in scala" />
+    <MESSAGE value="Understanding call by value and call by name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Understanding call by value and call by name" />
   </component>
 </project>
