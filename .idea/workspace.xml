@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Expressions in scala">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/Functions.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Functions in scala">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/Recursion.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.Functions.executor": "Run",
     "Application.Playground.executor": "Run",
+    "Application.Recursion.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -58,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src/main/scala/lectures/basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Functions">
+  <component name="RunManager" selected="Application.Recursion">
     <configuration name="Functions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.basics.Functions" />
       <module name="scala-part1" />
@@ -85,8 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.basics.Recursion" />
+      <module name="scala-part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Playground" />
       </list>
@@ -157,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711828041222</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Functions in scala">
+      <option name="closed" value="true" />
+      <created>1711853059634</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711853059634</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +201,7 @@
     <MESSAGE value="First scala program" />
     <MESSAGE value="Variable types in scala" />
     <MESSAGE value="Expressions in scala" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expressions in scala" />
+    <MESSAGE value="Functions in scala" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functions in scala" />
   </component>
 </project>
