@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Functions in scala">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/Recursion.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Recursion in scala">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/CBNvsCBV.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "raghvendrakmishra"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="683376b3-3f5e-4947-a3a9-1468ec487879" />
+        <option name="url" value="https://github.com/raghvendrakmishra/scala-part1.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.CBNvsCBV.executor": "Run",
     "Application.Functions.executor": "Run",
     "Application.Playground.executor": "Run",
     "Application.Recursion.executor": "Run",
@@ -59,7 +74,20 @@
       <recent name="$PROJECT_DIR$/src/main/scala/lectures/basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Recursion">
+  <component name="RunManager" selected="Application.CBNvsCBV">
+    <configuration name="CBNvsCBV" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.basics.CBNvsCBV" />
+      <module name="scala-part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Functions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.basics.Functions" />
       <module name="scala-part1" />
@@ -101,6 +129,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CBNvsCBV" />
         <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.Functions" />
         <item itemvalue="Application.Playground" />
@@ -180,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711853059634</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Recursion in scala">
+      <option name="closed" value="true" />
+      <created>1711858281663</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711858281663</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +239,7 @@
     <MESSAGE value="Variable types in scala" />
     <MESSAGE value="Expressions in scala" />
     <MESSAGE value="Functions in scala" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functions in scala" />
+    <MESSAGE value="Recursion in scala" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursion in scala" />
   </component>
 </project>
