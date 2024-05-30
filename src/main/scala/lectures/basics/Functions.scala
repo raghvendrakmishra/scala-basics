@@ -3,7 +3,7 @@ package lectures.basics
 import scala.annotation.tailrec
 
 object Functions extends App {
-  def aFunction(a: String, b: Int) = { // compile figure out the return type of non-recursive function
+  def aFunction(a: String, b: Int) = { // compiler figure out the return type of non-recursive function
     a + " " + b
   }
 
@@ -13,9 +13,9 @@ object Functions extends App {
   // println(aParameterlessFunction) // Compile Error: method aParameterlessFunction in object Functions must be called with () argument
   println(aParameterlessFunction())
 
-  def aRepeatedFunction(aString: String, n: Int): String = { // compile cannot figure out the return type of recursive function
+  def aRepeatedFunction(aString: String, n: Int): String = { // compiler cannot figure out the return type of recursive function
     if (n <= 1) aString
-    else aString + aRepeatedFunction(aString, n - 1)
+    else aString + aRepeatedFunction(aString, n - 1) // Recursive method aRepeatedFunction needs result type, if return type removed
   }
 
   println(aRepeatedFunction("Scala ", 5))
@@ -24,7 +24,7 @@ object Functions extends App {
 
   def aFunctionWithSideEffects(aString: String): Unit = println(aString)
 
-  // We can write an auxilary function inside another function
+  // We can write an auxiliary function inside another function
   def aBigFunction(n: Int): Int = {
     def aSmallerFunction(a: Int, b: Int): Int = a + b
 

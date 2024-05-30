@@ -1,5 +1,8 @@
 package lectures.basics
 
+/**
+ * Call by name vs call by value
+ */
 object CBNvsCBV extends App {
 
   private def calledByValue(x: Long): Unit = {

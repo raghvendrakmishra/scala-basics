@@ -18,6 +18,9 @@ object ValuesVariablesTypes extends App {
   val aLong: Long = 348759347L
   val aFloat: Float = 4534.454F
   val aDouble: Double = 34434.4435
+  
+  val aBigInt: BigInt = BigInt("22222222222222222288888888888888")
+  val aBigDecimal: BigDecimal = BigDecimal("2.2222222222222222288888888888888")
 
   // Variables
   var aVariable = 5 // var can be reassigned

@@ -17,6 +17,16 @@ object Expressions extends App {
   var aVariable = 2
   aVariable += 3 // also works with -= *= /= ..... side effects
   println(aVariable)
+  /* What is Side Effect
+    In computer science, an operation, function or expression is said to have a side effect if it has any observable
+    effect other than its primary effect of reading the value of its arguments and returning a value to the invoker of
+    the operation.
+
+    Any observable behavior change after the function finishes is considered a side effect. Updating global or static
+    variables, writing data to the filesystem, displays on screen, calling other “side-effecting” functions, and
+    throwing exceptions are all examples of side effects.
+   */
+
 
   // Instructions (DO) vs Expressions (VALUE)
 

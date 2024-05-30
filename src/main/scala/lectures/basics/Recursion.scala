@@ -1,5 +1,7 @@
 package lectures.basics
 
+import lectures.part2oop.Counter
+
 import scala.annotation.tailrec
 
 object Recursion extends App {
@@ -24,7 +26,7 @@ object Recursion extends App {
       else factorialUtil(a - 1, a * result)
     }
 
-    factorialUtil(n, 1)
+    factorialUtil(n, 1) // Tail recursion read: https://www.codingame.com/playgrounds/58737/fp-module-2---101-scala/function-tail-recursion
   }
 
   /*
@@ -47,7 +49,7 @@ object Recursion extends App {
 
 
   /*
-    Exercises:
+    Exercises: Implement using tail recursion
     1.  Concatenate a string n times
     2.  IsPrime function tail recursive
     3.  Fibonacci function, tail recursive.
@@ -55,7 +57,7 @@ object Recursion extends App {
   // 1.  Concatenate a string n times
   @tailrec
   def concatenateStr(aString: String, n: Int, result: String = ""): String = {
-    if (n <= 1) result
+    if (n < 1) result
     else concatenateStr(aString, n - 1, aString + result)
   }
 
@@ -79,13 +81,17 @@ object Recursion extends App {
   // 3.  Fibonacci function, tail recursive.
   def fibonacci(n: Int): Int = {
     @tailrec
-    def fibonacciHelper(t: Int, last: Int, nextToLast: Int): Int =
-      if (t >= n) last
-      else fibonacciHelper(t + 1, last + nextToLast, last)
+    def fibonacciHelper(counter: Int, last: Int, beforeLast: Int): Int =
+      if (counter >= n) last
+      else fibonacciHelper(counter + 1, last + beforeLast, last)
 
     fibonacciHelper(2, 1, 1)
   }
 
   println(fibonacci(2))
+  println(fibonacci(3))
+  println(fibonacci(4))
+  println(fibonacci(5))
+  println(fibonacci(6))
   println(fibonacci(8)) // 1 1 2 3 5 8 13, 21
 }

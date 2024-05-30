@@ -2,14 +2,17 @@ package lectures.basics
 
 object DefaultArgs extends App {
 
-  def factorial(n: Int, accumulator: Int = 1): Int = {
+  // If we do not pass method parameter then default value will be automatically used
+  def factorial(n: Int, accumulator: Int = 1 /* default value */): Int = {
     if(n <= 0) accumulator
     else factorial(n - 1, n * accumulator)
   }
 
   val fact10 = factorial(10, 2) // pro
 
-  def savePicture(format: String = "jpg", width: Int = 1920, height: Int = 1080): Unit = println("Saving picture")
+  // If we do not pass method parameter then default value will be automatically used
+  def savePicture(format: String = "jpg" /* default value */, width: Int = 1920 /* default value */, 
+                  height: Int = 1080 /* default value */): Unit = println("Saving picture")
   savePicture()
   savePicture("PNG")
   savePicture("GIF", 3000)
