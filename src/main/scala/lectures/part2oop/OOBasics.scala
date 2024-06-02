@@ -22,12 +22,12 @@ object OOBasics extends App {
     // def greet(): Int = 20 // compile error
 
     // Multiple Constructors
-    def this(name: String) = this(name, 0) // Additional Contructors can only be assigned to another Constructors
+    def this(name: String) = this(name, 0) // Additional Constructors can only be assigned to another Constructors
 
     def this() = this("Unknown")
   }
 
-  val person = new Person("Raghu", 20)
+  val person = Person("Raghu", 20) // adding new keyword before constructor is optional
   println(person)
   println(person.age)
   println(person.x)
@@ -36,15 +36,17 @@ object OOBasics extends App {
   person.greet()
 
   // exercise test
-  val author = new Writer("Charles", "Dickens", 1812)
-  val imposter = new Writer("Charles", "Dickens", 1812)
-  val novel = new Novel("Great Expectations", 1861, author)
+  val author = Writer("Charles", "Dickens", 1812) // adding new keyword before constructor is optional
+  val imposter = Writer("Charles", "Dickens", 1812) // adding new keyword before constructor is optional
+  val novel = Novel("Great Expectations", 1861, author) // adding new keyword before constructor is optional
 
   println(novel.authorAge)
   println(novel.isWrittenBy(imposter))
   println(novel.copy(2025).toString)
 
-  val counter = new Counter
+  val counter = new Counter // valid
+  // val counter = Counter() // valid
+  // val counter = Counter // invalid
   counter.increment.print
   counter.increment.increment.increment.print
   counter.increment(10000).decrement(5000).print
@@ -73,7 +75,7 @@ class Novel(name: String, yearOfRelease: Int, author: Writer) {
 
   def isWrittenBy(author: Writer): Boolean = this.author == author
 
-  def copy(newYearOfRelease: Int): Novel = new Novel(this.name, newYearOfRelease, author)
+  def copy(newYearOfRelease: Int): Novel = Novel(this.name, newYearOfRelease, author) // adding new keyword before constructor is optional
 }
 
 /*

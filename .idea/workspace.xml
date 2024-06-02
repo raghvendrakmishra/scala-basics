@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Method annotations in scala">
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/sbt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala-part1-build.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala-part1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala-part1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Add readability comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/basics/CBNvsCBV.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/CBNvsCBV.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/basics/DefaultArgs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/DefaultArgs.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/basics/Expressions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/Expressions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/basics/Functions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/Functions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/basics/Recursion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/basics/Recursion.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/MethodAnnotations.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/MethodAnnotations.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/OOBasics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/OOBasics.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +61,7 @@
     "Application.Expressions.executor": "Debug",
     "Application.Functions.executor": "Debug",
     "Application.MethodAnnotations.executor": "Run",
-    "Application.OOBasics.executor": "Run",
+    "Application.OOBasics.executor": "Debug",
     "Application.Playground.executor": "Run",
     "Application.Recursion.executor": "Run",
     "Application.StringOps.executor": "Run",
@@ -87,13 +79,13 @@
       <recent name="$PROJECT_DIR$/src/main/scala/lectures/basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.stringManipulation">
-    <configuration name="Expressions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.basics.Expressions" />
+  <component name="RunManager" selected="Application.MethodAnnotations">
+    <configuration name="MethodAnnotations" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.MethodAnnotations" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.basics.*" />
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.basics.Functions" />
+    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.OOBasics" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.basics.*" />
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodAnnotations" />
+        <item itemvalue="Application.OOBasics" />
         <item itemvalue="Application.stringManipulation" />
         <item itemvalue="Application.StringOps" />
         <item itemvalue="Application.Recursion" />
-        <item itemvalue="Application.Functions" />
-        <item itemvalue="Application.Expressions" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711888721616</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add readability comments">
+      <option name="closed" value="true" />
+      <created>1717044132658</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717044132658</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,7 +315,8 @@
     <MESSAGE value="String manipulation" />
     <MESSAGE value="Object-Oriented basics in Scala" />
     <MESSAGE value="Method annotations in scala" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method annotations in scala" />
+    <MESSAGE value="Add readability comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add readability comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

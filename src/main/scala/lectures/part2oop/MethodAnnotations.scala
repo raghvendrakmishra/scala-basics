@@ -3,6 +3,15 @@ package lectures.part2oop
 import scala.annotation.targetName
 import scala.language.postfixOps
 
+/** Object: Defines a singleton object, meaning there's only one instance. It can have methods and fields but cannot 
+ * have parameters. 
+ * 
+ * Class: Defines a blueprint for creating objects (instances). It can have parameters, methods, and fields. Multiple 
+ * instances of a class can be created.
+ * 
+ * In summary, use class for creating multiple instances with state and behavior, and use object for defining single 
+ * instances (singletons) or utility methods and constants.
+*/
 object MethodAnnotations extends App {
 
   class Person(val name: String, favoriteMovie: String,  val age: Int = 0) {
@@ -25,9 +34,9 @@ object MethodAnnotations extends App {
 
   val mary = new Person("Mary", "Magadheera")
   println(mary.likes("Magadheera"))
-  println(mary likes "Magadheera") // equivalent as above
   // it is called, infix notation = operator notation (syntactic sugar)
   // It only works with a method with single parameter
+  println(mary likes "Magadheera") // equivalent as above
 
   // Operators in Scala
   val tom = new Person("Tom", "Terminator")
