@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Add readability comments">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/Objects.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/JavaPlayGround.java" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Scala object vs class">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/InheritanceAndTraits.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/InheritanceAndTraits2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Package Object" />
         <option value="Class" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -61,52 +61,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Application.CBNvsCBV.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DefaultArgs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Expressions.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Functions.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.JavaPlayGround (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaPlayGround (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaPlayGround.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodAnnotations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OOBasics.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Objects.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Playground.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Recursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringOps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.stringManipulation.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rmishra/Courses/scala/scala-part1/src/main/scala/lectures/basics&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Application.CBNvsCBV.executor": "Run",
+    "Application.DefaultArgs.executor": "Run",
+    "Application.Expressions.executor": "Debug",
+    "Application.Functions.executor": "Debug",
+    "Application.InheritanceAndTraits.executor": "Debug",
+    "Application.JavaPlayGround (1).executor": "Run",
+    "Application.JavaPlayGround (2).executor": "Run",
+    "Application.JavaPlayGround.executor": "Run",
+    "Application.MethodAnnotations.executor": "Run",
+    "Application.OOBasics.executor": "Debug",
+    "Application.Objects.executor": "Run",
+    "Application.Playground.executor": "Run",
+    "Application.Recursion.executor": "Run",
+    "Application.StringOps.executor": "Run",
+    "Application.stringManipulation.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/rmishra/Courses/scala/scala-part1/src/main/scala/lectures/basics",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/scala/lectures/basics" />
     </key>
   </component>
-  <component name="RunAnythingCache">
-    <myKeys>
-      <visibility group="Gradle Tasks" flag="true" />
-      <visibility group="Maven Goals" flag="true" />
-      <visibility group="Recent projects" flag="true" />
-      <visibility group="Run configurations" flag="true" />
-      <visibility group="sbt" flag="true" />
-    </myKeys>
-  </component>
-  <component name="RunManager" selected="Application.Objects">
-    <configuration name="JavaPlayGround (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.JavaPlayGround" />
+  <component name="RunManager" selected="Application.InheritanceAndTraits">
+    <configuration name="InheritanceAndTraits" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.InheritanceAndTraits" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.*" />
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InheritanceAndTraits" />
         <item itemvalue="Application.Objects" />
         <item itemvalue="Application.Playground" />
         <item itemvalue="Application.JavaPlayGround" />
         <item itemvalue="Application.JavaPlayGround (2)" />
-        <item itemvalue="Application.JavaPlayGround (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717332850150</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Scala object vs class">
+      <option name="closed" value="true" />
+      <created>1717778470326</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1717778470326</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,7 +345,8 @@
     <MESSAGE value="Object-Oriented basics in Scala" />
     <MESSAGE value="Method annotations in scala" />
     <MESSAGE value="Add readability comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add readability comments" />
+    <MESSAGE value="Scala object vs class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scala object vs class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
