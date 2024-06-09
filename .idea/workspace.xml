@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Access modifiers, constructors, overloading, overriding, super, final, trait, case and sealed in Scala">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/AbstractDataTypes.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="trait vs abstract class, scala type hierarchy">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/MyList.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/InheritanceAndTraits.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/Inheritance.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/InheritanceAndTraits2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/Inheritance2.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -74,6 +75,7 @@
     "Application.JavaPlayGround (1).executor": "Run",
     "Application.JavaPlayGround (2).executor": "Run",
     "Application.JavaPlayGround.executor": "Run",
+    "Application.ListTest.executor": "Run",
     "Application.MethodAnnotations.executor": "Run",
     "Application.OOBasics.executor": "Debug",
     "Application.Objects.executor": "Run",
@@ -85,12 +87,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rmishra/Courses/scala/scala-part1/src/main/scala/lectures/basics",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "last_opened_file_path": "/Users/rmishra/Courses/scala/scala-part1/src/main/resources",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/scala/lectures/basics" />
     </key>
   </component>
@@ -103,7 +106,7 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.AbstractDataTypes">
+  <component name="RunManager" selected="Application.ListTest">
     <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AbstractDataTypes" />
       <module name="scala-part1" />
@@ -130,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaPlayGround" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playground.JavaPlayGround" />
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.ListTest" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.AbstractDataTypes" />
         <item itemvalue="Application.InheritanceAndTraits" />
         <item itemvalue="Application.Playground" />
         <item itemvalue="Application.Objects" />
-        <item itemvalue="Application.JavaPlayGround" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717857410889</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="trait vs abstract class, scala type hierarchy">
+      <option name="closed" value="true" />
+      <created>1717902886453</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717902886453</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,7 +377,8 @@
     <MESSAGE value="Add readability comments" />
     <MESSAGE value="Scala object vs class" />
     <MESSAGE value="Access modifiers, constructors, overloading, overriding, super, final, trait, case and sealed in Scala" />
-    <option name="LAST_COMMIT_MESSAGE" value="Access modifiers, constructors, overloading, overriding, super, final, trait, case and sealed in Scala" />
+    <MESSAGE value="trait vs abstract class, scala type hierarchy" />
+    <option name="LAST_COMMIT_MESSAGE" value="trait vs abstract class, scala type hierarchy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
