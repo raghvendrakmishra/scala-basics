@@ -9,7 +9,7 @@ package lectures.part2oop
  * Invoking super.members
  * Preventing override
  */
-object InheritanceAndTraits extends App {
+object Inheritance extends App {
 
   //  Single class inheritance
   class Animal {

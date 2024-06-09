@@ -5,7 +5,7 @@ package lectures.part2oop
  * What is sealed keyword?
  * What is case keyword?
  */
-object InheritanceAndTraits2 extends App {
+object Inheritance2 extends App {
   /** 
    * In Scala, a trait is similar to an interface in other programming languages, but it can also contain concrete 
    * method implementations. Here's a breakdown of traits in Scala:
