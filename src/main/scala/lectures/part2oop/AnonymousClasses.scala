@@ -24,6 +24,6 @@ object AnonymousClasses extends App {
     def sayHi = s"$name is saying Hi..."
   }
   val swpanil = new Person("Swapnil") {
-    def sayHi = s"$name is saying Hello..."
+    override def sayHi = "Swapnil is saying Hello..."
   }
 }

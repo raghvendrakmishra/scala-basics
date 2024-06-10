@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Add generics in Scala. Make MyList a to support generic collection">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/AnonymousClasses.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Anonymous class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +109,7 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.AnonymousClasses">
+  <component name="RunManager" selected="Application.ListTest">
     <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AbstractDataTypes" />
       <module name="scala-part1" />
@@ -180,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnonymousClasses" />
         <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.AnonymousClasses" />
         <item itemvalue="Application.Generics" />
         <item itemvalue="Application.AbstractDataTypes" />
         <item itemvalue="Application.InheritanceAndTraits" />
@@ -376,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717985876027</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Anonymous class">
+      <option name="closed" value="true" />
+      <created>1717986980643</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1717986980643</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +416,8 @@
     <MESSAGE value="Custom list implementation | version 1" />
     <MESSAGE value="#clean-up" />
     <MESSAGE value="Add generics in Scala. Make MyList a to support generic collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add generics in Scala. Make MyList a to support generic collection" />
+    <MESSAGE value="Anonymous class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anonymous class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
