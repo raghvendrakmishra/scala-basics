@@ -29,7 +29,7 @@ abstract class MyList[+A] {
   def ++[B >: A](list: MyList[B]): MyList[B]
 }
 
-object MyEmptyList extends MyList[Nothing] {
+case object MyEmptyList extends MyList[Nothing] {
   def head: Nothing = throw new NoSuchElementException
   def tail: MyList[Nothing] = throw new NoSuchElementException
   def isEmpty: Boolean = true
@@ -43,7 +43,7 @@ object MyEmptyList extends MyList[Nothing] {
   def ++[B >: Nothing](list: MyList[B]): MyList[B] = list
 }
 
-class MyNonEmptyList[+A](h: A, t: MyList[A]) extends MyList[A] {
+case class MyNonEmptyList[+A](h: A, t: MyList[A]) extends MyList[A] {
   def head: A = h
   def tail: MyList[A] = t
   def isEmpty: Boolean = false
@@ -113,6 +113,8 @@ object ListTest extends App {
   // val listOfIntegers: MyList[Int] = MyEmptyList
   // val listOfStrings: MyList[String] = MyEmptyList
   val listOfIntegers: MyList[Int] = MyNonEmptyList(4, new MyNonEmptyList[Int](5, new MyNonEmptyList[Int](6, MyEmptyList)))
+  val clonseListOfIntegers: MyList[Int] = MyNonEmptyList(4, new MyNonEmptyList[Int](5, new MyNonEmptyList[Int](6, MyEmptyList)))
+
   val listOfStrings: MyList[String] = MyNonEmptyList("Raghu", new MyNonEmptyList[String]("Gaurav", new MyNonEmptyList[String]("Murali", MyEmptyList)))
   println(listOfIntegers.toString)
   println(listOfStrings.toString)
@@ -131,4 +133,6 @@ object ListTest extends App {
       override def transform(a: Int): MyList[Int] = new MyNonEmptyList(a, new MyNonEmptyList(a + 1, MyEmptyList))
     }
   ).toString)
+
+  println(listOfIntegers == clonseListOfIntegers) // true, since case object got OOTB implementation of equals and hashcode
 }

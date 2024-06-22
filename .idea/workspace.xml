@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Anonymous class">
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="OO exercise. Extends collection">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/CaseClasses.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/exercises/MyList.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/AnonymousClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/AnonymousClasses.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="scala-part1" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,6 +87,7 @@
     "Application.AbstractDataTypes.executor": "Run",
     "Application.AnonymousClasses.executor": "Run",
     "Application.CBNvsCBV.executor": "Run",
+    "Application.CaseClasses.executor": "Run",
     "Application.DefaultArgs.executor": "Run",
     "Application.Expressions.executor": "Debug",
     "Application.Functions.executor": "Debug",
@@ -114,8 +132,8 @@
     </myKeys>
   </component>
   <component name="RunManager" selected="Application.ListTest">
-    <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AbstractDataTypes" />
+    <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AnonymousClasses" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AnonymousClasses" />
+    <configuration name="CaseClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.CaseClasses" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
@@ -182,10 +200,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.CaseClasses" />
         <item itemvalue="Application.AnonymousClasses" />
         <item itemvalue="Application.Generics" />
         <item itemvalue="Application.InheritanceAndTraits" />
-        <item itemvalue="Application.AbstractDataTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717987347050</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="OO exercise. Extends collection">
+      <option name="closed" value="true" />
+      <created>1719034165146</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1719034165146</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +455,8 @@
     <MESSAGE value="#clean-up" />
     <MESSAGE value="Add generics in Scala. Make MyList a to support generic collection" />
     <MESSAGE value="Anonymous class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anonymous class" />
+    <MESSAGE value="OO exercise. Extends collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="OO exercise. Extends collection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
