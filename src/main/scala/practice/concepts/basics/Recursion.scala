@@ -1,7 +1,6 @@
-package lectures.basics
+package practice.concepts.basics
 
-import lectures.oop.Counter
-
+import practice.concepts.oops.Counter
 import scala.annotation.tailrec
 
 object Recursion extends App {

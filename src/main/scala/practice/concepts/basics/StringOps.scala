@@ -1,4 +1,4 @@
-package lectures.basics
+package practice.concepts.basics
 
 object StringOps extends App {
 

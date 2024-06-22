@@ -1,4 +1,4 @@
-package lectures.oop
+package practice.concepts.oops
 
 /**
  * What are access modifiers?

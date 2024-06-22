@@ -1,4 +1,4 @@
-package lectures.oop
+package practice.concepts.oops
 
 /**
  * 1. **Exception Handling Mechanism**:

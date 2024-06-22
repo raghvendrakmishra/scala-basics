@@ -1,4 +1,4 @@
-package exercises
+package practice.exercises
 
 import scala.annotation.targetName
 import scala.reflect.ClassManifestFactory.{Any, Nothing, Null}

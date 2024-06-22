@@ -1,4 +1,4 @@
-package playground;
+package practice.playground;
 
 public class JavaPlayGround {
 

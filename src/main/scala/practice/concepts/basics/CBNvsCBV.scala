@@ -1,4 +1,4 @@
-package lectures.basics
+package practice.concepts.basics
 
 /**
  * Call by name vs call by value

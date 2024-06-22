@@ -1,4 +1,4 @@
-package playground
+package practice.playground
 
 object Playground {
   def main(args: Array[String]): Unit = {

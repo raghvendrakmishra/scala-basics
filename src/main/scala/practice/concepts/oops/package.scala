@@ -1,4 +1,4 @@
-package lectures
+package practice.concepts
 
 /**
  * Package objects in Scala are a feature that allows you to define methods, variables, constants, and type aliases
@@ -50,7 +50,7 @@ package lectures
  * By encapsulating shared definitions in a package object, you can maintain cleaner and more modular code, facilitating
  * easier maintenance and readability.
  */
-package object oop {
+package object oops {
 
   val SPEED_OF_LIGHT = 299792458
 

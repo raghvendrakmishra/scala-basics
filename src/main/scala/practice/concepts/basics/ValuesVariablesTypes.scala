@@ -1,4 +1,4 @@
-package lectures.basics
+package practice.concepts.basics
 
 object ValuesVariablesTypes extends App {
   // numbers

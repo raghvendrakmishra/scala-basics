@@ -1,4 +1,4 @@
-package lectures.oop
+package practice.concepts.oops
 
 import scala.annotation.targetName
 import scala.language.postfixOps

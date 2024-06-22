@@ -1,4 +1,4 @@
-package lectures.oop
+package practice.concepts.oops
 
 /**
  * trait vs abstract class?

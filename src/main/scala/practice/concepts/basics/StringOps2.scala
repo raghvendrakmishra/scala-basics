@@ -1,4 +1,4 @@
-package lectures.basics
+package practice.concepts.basics
 
 /**
  * This code demonstrates various string manipulation operations in Scala
