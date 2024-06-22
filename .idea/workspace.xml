@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="OO exercise. Extends collection">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/CaseClasses.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="OO exercise. Extends MyList to use case class / object">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/Enums.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/exercises/MyList.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +88,7 @@
     "Application.CBNvsCBV.executor": "Run",
     "Application.CaseClasses.executor": "Run",
     "Application.DefaultArgs.executor": "Run",
+    "Application.Enums.executor": "Run",
     "Application.Expressions.executor": "Debug",
     "Application.Functions.executor": "Debug",
     "Application.Generics.executor": "Run",
@@ -131,7 +131,7 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.ListTest">
+  <component name="RunManager" selected="Application.Enums">
     <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AnonymousClasses" />
       <module name="scala-part1" />
@@ -158,8 +158,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Generics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Generics" />
+    <configuration name="Enums" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Enums" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
@@ -171,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceAndTraits" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.InheritanceAndTraits" />
+    <configuration name="Generics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Generics" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
@@ -199,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Enums" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.CaseClasses" />
         <item itemvalue="Application.AnonymousClasses" />
         <item itemvalue="Application.Generics" />
-        <item itemvalue="Application.InheritanceAndTraits" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719034165146</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="OO exercise. Extends MyList to use case class / object">
+      <option name="closed" value="true" />
+      <created>1719038426973</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1719038426973</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +464,8 @@
     <MESSAGE value="Add generics in Scala. Make MyList a to support generic collection" />
     <MESSAGE value="Anonymous class" />
     <MESSAGE value="OO exercise. Extends collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="OO exercise. Extends collection" />
+    <MESSAGE value="OO exercise. Extends MyList to use case class / object" />
+    <option name="LAST_COMMIT_MESSAGE" value="OO exercise. Extends MyList to use case class / object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
