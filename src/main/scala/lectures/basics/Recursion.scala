@@ -1,6 +1,6 @@
 package lectures.basics
 
-import lectures.part2oop.Counter
+import lectures.oop.Counter
 
 import scala.annotation.tailrec
 

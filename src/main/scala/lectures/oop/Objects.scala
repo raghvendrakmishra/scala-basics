@@ -1,4 +1,4 @@
-package lectures.part2oop
+package lectures.oop
 
 /**
  * What are objects in scala?

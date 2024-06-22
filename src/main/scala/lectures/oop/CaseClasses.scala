@@ -1,4 +1,4 @@
-package lectures.part2oop
+package lectures.oop
 
 /**
  * A case class in Scala is a special type of class that is optimized for use in pattern matching and immutable data

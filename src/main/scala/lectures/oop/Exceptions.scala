@@ -1,4 +1,4 @@
-package lectures.part2oop
+package lectures.oop
 
 /**
  * 1. **Exception Handling Mechanism**:

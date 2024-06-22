@@ -1,4 +1,4 @@
-package lectures.part2oop
+package lectures.oop
 
 object AnonymousClasses extends App {
 

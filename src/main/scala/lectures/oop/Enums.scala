@@ -1,6 +1,6 @@
-package lectures.part2oop
+package lectures.oop
 
-import lectures.part2oop.Enums.Permissions.READ
+import lectures.oop.Enums.Permissions.READ
 
 /**
  * Enums in Scala, introduced in Scala 3, provide a way to define a finite set of named values. They are similar to

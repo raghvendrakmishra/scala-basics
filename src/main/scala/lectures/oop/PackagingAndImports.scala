@@ -1,4 +1,4 @@
-package lectures.part2oop
+package lectures.oop
 
 import playground.{JavaPlayGround, Dummy1 as Mock}
 

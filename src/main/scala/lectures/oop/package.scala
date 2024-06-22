@@ -50,7 +50,7 @@ package lectures
  * By encapsulating shared definitions in a package object, you can maintain cleaner and more modular code, facilitating
  * easier maintenance and readability.
  */
-package object part2oop {
+package object oop {
 
   val SPEED_OF_LIGHT = 299792458
 
