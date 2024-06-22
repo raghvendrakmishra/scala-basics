@@ -1,6 +1,6 @@
 package practice.concepts.oops
 
-import practice.playground.{Dummy1, JavaPlayGround}
+import practice.playground.{Dummy1 => Mock, JavaPlayGround}
 
 import java.util.Date // Best practice to import only required classes like this
 // import playground._ // import all from package, Use it only if you need it
@@ -23,7 +23,7 @@ object PackagingAndImports extends App {
   println(SPEED_OF_LIGHT)
 
   // Imports
-  val dummy1 = Dummy1
+  val dummy1 = practice.playground.Dummy1
   val dummy2 = Mock // use alias if importing same name class from different packages
 
   val date = new Date
