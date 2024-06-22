@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Exceptions hands-on">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/PackagingAndImports.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/package.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Renaming package">
+      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/oop/Exceptions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/oop/ExceptionsInScala.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +90,7 @@
     "Application.DefaultArgs.executor": "Run",
     "Application.Enums.executor": "Run",
     "Application.Exceptions.executor": "Debug",
+    "Application.ExceptionsInScala.executor": "Run",
     "Application.Expressions.executor": "Debug",
     "Application.Functions.executor": "Debug",
     "Application.Generics.executor": "Run",
@@ -144,11 +143,11 @@
       </method>
     </configuration>
     <configuration name="Enums" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Enums" />
+      <option name="MAIN_CLASS_NAME" value="lectures.oop.Enums" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="lectures.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +156,11 @@
       </method>
     </configuration>
     <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Exceptions" />
+      <option name="MAIN_CLASS_NAME" value="lectures.oop.Exceptions" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="lectures.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.ListTest" />
+    <configuration name="ExceptionsInScala" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.oop.ExceptionsInScala" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.*" />
+          <option name="PATTERN" value="lectures.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +182,11 @@
       </method>
     </configuration>
     <configuration name="PackagingAndImports" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.PackagingAndImports" />
+      <option name="MAIN_CLASS_NAME" value="lectures.oop.PackagingAndImports" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="lectures.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,10 +197,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PackagingAndImports" />
+        <item itemvalue="Application.ExceptionsInScala" />
         <item itemvalue="Application.CaseClasses (1)" />
         <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.Enums" />
-        <item itemvalue="Application.ListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +440,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719056144917</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Packaging, imports and alias">
+      <option name="closed" value="true" />
+      <created>1719065659933</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1719065659933</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Renaming package">
+      <option name="closed" value="true" />
+      <created>1719066304803</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1719066304803</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,8 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First commit" />
-    <MESSAGE value="How to add local repository into git" />
     <MESSAGE value="Project setup" />
     <MESSAGE value="First scala program" />
     <MESSAGE value="Variable types in scala" />
@@ -481,7 +494,9 @@
     <MESSAGE value="OO exercise. Extends MyList to use case class / object" />
     <MESSAGE value="Enum in scala3" />
     <MESSAGE value="Exceptions hands-on" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exceptions hands-on" />
+    <MESSAGE value="Packaging, imports and alias" />
+    <MESSAGE value="Renaming package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renaming package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
