@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Anonymous functions, lambda expressions">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/HigherOrderFunctionsAndCurries.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Higher order functions and curries">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/HigherOrderFunctionsAndCurries.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/HigherOrderFunctionsAndCurries.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/practice/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practice/exercises/MyList.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,8 +209,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.HigherOrderFunctionsAndCurries" />
-        <item itemvalue="Application.AnonymousFunctions" />
         <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.AnonymousFunctions" />
         <item itemvalue="Application.WhatIsFunction" />
         <item itemvalue="Application.practice.concepts.oops.PackagingAndImports" />
       </list>
@@ -507,7 +508,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719125247949</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Higher order functions and curries">
+      <option name="closed" value="true" />
+      <created>1719134085331</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1719134085331</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -522,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Functions in scala" />
     <MESSAGE value="Recursion in scala" />
     <MESSAGE value="Understanding call by value and call by name" />
     <MESSAGE value="Understanding default arguments of function" />
@@ -547,7 +555,8 @@
     <MESSAGE value="Fix compile error" />
     <MESSAGE value="Functions in Scala. Function1....Function22. Using Functions as lamds" />
     <MESSAGE value="Anonymous functions, lambda expressions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anonymous functions, lambda expressions" />
+    <MESSAGE value="Higher order functions and curries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Higher order functions and curries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
