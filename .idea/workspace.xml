@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Functions in Scala. Function1....Function22. Using Functions as lamds">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/AnonymousFunctions.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Anonymous functions, lambda expressions">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/HigherOrderFunctionsAndCurries.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/practice/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practice/exercises/MyList.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +96,7 @@
     "Application.Expressions.executor": "Debug",
     "Application.Functions.executor": "Debug",
     "Application.Generics.executor": "Run",
+    "Application.HigherOrderFunctionsAndCurries.executor": "Run",
     "Application.InheritanceAndTraits.executor": "Debug",
     "Application.JavaPlayGround (1).executor": "Run",
     "Application.JavaPlayGround (2).executor": "Run",
@@ -139,9 +139,22 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.AnonymousFunctions">
+  <component name="RunManager" selected="Application.HigherOrderFunctionsAndCurries">
     <configuration name="AnonymousFunctions" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.AnonymousFunctions" />
+      <module name="scala-part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HigherOrderFunctionsAndCurries" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.HigherOrderFunctionsAndCurries" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
@@ -159,19 +172,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PackagingAndImports" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.oop.PackagingAndImports" />
-      <module name="scala-part1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HigherOrderFunctionsAndCurries" />
         <item itemvalue="Application.AnonymousFunctions" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.WhatIsFunction" />
         <item itemvalue="Application.practice.concepts.oops.PackagingAndImports" />
-        <item itemvalue="Application.PackagingAndImports" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719074798831</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Anonymous functions, lambda expressions">
+      <option name="closed" value="true" />
+      <created>1719125247948</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1719125247949</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -514,7 +522,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Expressions in scala" />
     <MESSAGE value="Functions in scala" />
     <MESSAGE value="Recursion in scala" />
     <MESSAGE value="Understanding call by value and call by name" />
@@ -539,7 +546,8 @@
     <MESSAGE value="Renaming packages" />
     <MESSAGE value="Fix compile error" />
     <MESSAGE value="Functions in Scala. Function1....Function22. Using Functions as lamds" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functions in Scala. Function1....Function22. Using Functions as lamds" />
+    <MESSAGE value="Anonymous functions, lambda expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anonymous functions, lambda expressions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
