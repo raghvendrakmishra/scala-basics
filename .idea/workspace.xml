@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Fix compile error">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/WhatIsFunction.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Functions in Scala. Function1....Function22. Using Functions as lamds">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/AnonymousFunctions.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/practice/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practice/exercises/MyList.scala" afterDir="false" />
     </list>
@@ -86,6 +86,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Application.AbstractDataTypes.executor": "Run",
     "Application.AnonymousClasses.executor": "Run",
+    "Application.AnonymousFunctions.executor": "Run",
     "Application.CBNvsCBV.executor": "Run",
     "Application.CaseClasses (1).executor": "Run",
     "Application.CaseClasses.executor": "Run",
@@ -138,13 +139,13 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.ListTest">
-    <configuration name="ExceptionsInScala" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.oop.ExceptionsInScala" />
+  <component name="RunManager" selected="Application.AnonymousFunctions">
+    <configuration name="AnonymousFunctions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.AnonymousFunctions" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.oop.*" />
+          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonymousFunctions" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.WhatIsFunction" />
         <item itemvalue="Application.practice.concepts.oops.PackagingAndImports" />
         <item itemvalue="Application.PackagingAndImports" />
-        <item itemvalue="Application.ExceptionsInScala" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719068280744</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Functions in Scala. Function1....Function22. Using Functions as lamds">
+      <option name="closed" value="true" />
+      <created>1719074798831</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1719074798831</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,7 +514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Variable types in scala" />
     <MESSAGE value="Expressions in scala" />
     <MESSAGE value="Functions in scala" />
     <MESSAGE value="Recursion in scala" />
@@ -530,7 +538,8 @@
     <MESSAGE value="Renaming package" />
     <MESSAGE value="Renaming packages" />
     <MESSAGE value="Fix compile error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix compile error" />
+    <MESSAGE value="Functions in Scala. Function1....Function22. Using Functions as lamds" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functions in Scala. Function1....Function22. Using Functions as lamds" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

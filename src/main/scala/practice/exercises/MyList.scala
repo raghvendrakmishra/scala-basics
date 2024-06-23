@@ -104,20 +104,14 @@ object ListTest extends App {
   println(listOfIntegers.toString)
   println(listOfStrings.toString)
 
-  println(listOfIntegers.map(new Function1[Int, Int] {
-    override def apply(a: Int): Int = a * 2
-  }).toString)
-  println(listOfIntegers.filter(new Function1[Int, Boolean] {
-    override def apply(a: Int): Boolean = a % 2 == 0
-  }).toString)
+  println(listOfIntegers.map(_ * 2).toString)
+  println(listOfIntegers.filter(_ % 2 == 0).toString)
   val anotherListOfIntegers = new MyNonEmptyList(4, new MyNonEmptyList(5, MyEmptyList))
   println((listOfIntegers ++ anotherListOfIntegers).toString)
 
-  println(anotherListOfIntegers.flatMap(
-    new Function1[Int, MyList[Int]] {
-      override def apply(a: Int): MyList[Int] = new MyNonEmptyList(a, new MyNonEmptyList(a + 1, MyEmptyList))
-    }
-  ).toString)
+  println(anotherListOfIntegers
+    .flatMap(element => new MyNonEmptyList(element, new MyNonEmptyList(element + 1, MyEmptyList))).toString)
+  // _ notation don't work here as we have used it 2 times above. Each _ stands for different parameter
 
   println(listOfIntegers == clonseListOfIntegers) // true, since case object got OOTB implementation of equals and hashcode
 }
