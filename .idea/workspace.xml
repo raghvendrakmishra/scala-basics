@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="map, flatMap, filter and for-comprehensive">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/Sequences.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Package Object" />
         <option value="Class" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -109,6 +110,7 @@
     "Application.PackagingAndImports.executor": "Run",
     "Application.Playground.executor": "Run",
     "Application.Recursion.executor": "Run",
+    "Application.Sequences.executor": "Run",
     "Application.StringOps.executor": "Run",
     "Application.Test.executor": "Debug",
     "Application.WhatIsFunction.executor": "Debug",
@@ -142,7 +144,7 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.MaybeTest">
+  <component name="RunManager" selected="Application.Sequences">
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.exercises.ListTest" />
       <module name="scala-part1" />
@@ -182,8 +184,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.Test" />
+    <configuration name="Sequences" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.Sequences" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
@@ -210,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sequences" />
         <item itemvalue="Application.MaybeTest" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.practice.concepts.functionalprogramming.MapFlatMapFilterFor" />
         <item itemvalue="Application.MapFlatMapFilterFor" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719644752084</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="map, flatMap, filter and for-comprehensive">
+      <option name="closed" value="true" />
+      <created>1719649056391</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1719649056391</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
