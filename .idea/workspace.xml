@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="map, flatMap, filter and for-comprehensive">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/Sequences.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Sequences: List, Array, Vector">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/TuplesAndMaps.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/Sequences.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/Sequences.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +114,7 @@
     "Application.Sequences.executor": "Run",
     "Application.StringOps.executor": "Run",
     "Application.Test.executor": "Debug",
+    "Application.TuplesAndMaps.executor": "Run",
     "Application.WhatIsFunction.executor": "Debug",
     "Application.practice.concepts.functionalprogramming.MapFlatMapFilterFor.executor": "Run",
     "Application.practice.concepts.oops.PackagingAndImports.executor": "Run",
@@ -144,22 +146,9 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.Sequences">
+  <component name="RunManager" selected="Application.TuplesAndMaps">
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.exercises.ListTest" />
-      <module name="scala-part1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapFlatMapFilterFor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.exercises.MapFlatMapFilterFor" />
       <module name="scala-part1" />
       <extension name="coverage">
         <pattern>
@@ -197,6 +186,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TuplesAndMaps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.TuplesAndMaps" />
+      <module name="scala-part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="practice.concepts.functionalprogramming.MapFlatMapFilterFor" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.MapFlatMapFilterFor" />
       <module name="scala-part1" />
@@ -212,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TuplesAndMaps" />
         <item itemvalue="Application.Sequences" />
         <item itemvalue="Application.MaybeTest" />
         <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.practice.concepts.functionalprogramming.MapFlatMapFilterFor" />
-        <item itemvalue="Application.MapFlatMapFilterFor" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719649056391</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Sequences: List, Array, Vector">
+      <option name="closed" value="true" />
+      <created>1719655627399</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1719655627399</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -559,7 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Understanding default arguments of function" />
     <MESSAGE value="String manipulation" />
     <MESSAGE value="Object-Oriented basics in Scala" />
     <MESSAGE value="Method annotations in scala" />
@@ -584,7 +593,8 @@
     <MESSAGE value="Higher order functions and curries" />
     <MESSAGE value="Higher order functions and curries exercise" />
     <MESSAGE value="map, flatMap, filter and for-comprehensive" />
-    <option name="LAST_COMMIT_MESSAGE" value="map, flatMap, filter and for-comprehensive" />
+    <MESSAGE value="Sequences: List, Array, Vector" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sequences: List, Array, Vector" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
