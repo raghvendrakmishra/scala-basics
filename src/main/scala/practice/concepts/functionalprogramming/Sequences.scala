@@ -12,6 +12,8 @@ object Sequences extends App {
   println(aSequence(3)) // 4 -> aSequence.get(3)
   println(aSequence ++ Seq(7,5,6)) // List(1, 3, 2, 4, 7, 5, 6)
   println(aSequence.sorted) // List(1, 2, 3, 4)
+  println(aSequence.head) // 1
+  println(aSequence.tail) // List(3, 2, 4)
 
   // Ranges
   /**

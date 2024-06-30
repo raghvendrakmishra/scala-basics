@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Sequences: List, Array, Vector">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/TuplesAndMaps.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Tuples and Maps">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/Sequences.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/Sequences.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/TuplesAndMaps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/TuplesAndMaps.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -554,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719655627399</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Tuples and Maps">
+      <option name="closed" value="true" />
+      <created>1719680725757</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1719680725757</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -569,7 +577,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="String manipulation" />
     <MESSAGE value="Object-Oriented basics in Scala" />
     <MESSAGE value="Method annotations in scala" />
     <MESSAGE value="Add readability comments" />
@@ -594,7 +601,8 @@
     <MESSAGE value="Higher order functions and curries exercise" />
     <MESSAGE value="map, flatMap, filter and for-comprehensive" />
     <MESSAGE value="Sequences: List, Array, Vector" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sequences: List, Array, Vector" />
+    <MESSAGE value="Tuples and Maps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tuples and Maps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

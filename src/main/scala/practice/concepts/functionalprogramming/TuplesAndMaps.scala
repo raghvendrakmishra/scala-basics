@@ -1,5 +1,7 @@
 package practice.concepts.functionalprogramming
 
+import scala.annotation.tailrec
+
 object TuplesAndMaps extends App {
 
   // tuples = finite ordered "lists"
@@ -43,109 +45,144 @@ object TuplesAndMaps extends App {
 
   // functionals on maps
   // map, flatMap, filter
-    println(phonebook.map(pair => pair._1.toLowerCase -> pair._2))
+    println(phonebook.map(pair => pair._1.toLowerCase -> pair._2)) // Map(rishabh -> 9000, pappu -> 789)
 
   // filterKeys
     println(phonebook.view.filterKeys(x => x.startsWith("R")).toMap)
   // mapValues
   println(phonebook.view.mapValues(number => "+91-" + number).toMap)
- 
+
   // conversions to other collections
   println(phonebook.toList)
   println(List(("Pappu", 555)).toMap)
   val names = List("Ramesh", "Aditya", "Ayush", "Atul", "Pappu", "Rishabh")
   println(names.groupBy(name => name.charAt(0)))
   println(names.groupBy(name => name.charAt(0) == 'A'))
-//
-//  /*
-//    1.  What would happen if I had two original entries "Rishabh" -> 555 and "RISHABH" -> 900
-//
-//        !!! careful with mapping keys.
-//
-//    2.  Overly simplified social network based on maps
-//        Person = String
-//        - add a person to the network
-//        - remove
-//        - friend (mutual)
-//        - unfriend
-//
-//        - number of friends of a person
-//        - person with most friends
-//        - how many people have NO friends
-//        - if there is a social connection between two people (direct or not)
-//   */
-//  def add(network: Map[String, Set[String]], person: String): Map[String, Set[String]] =
-//    network + (person -> Set())
-//
-//  def friend(network: Map[String, Set[String]], a: String, b: String): Map[String, Set[String]] = {
-//    val friendsA = network(a)
-//    val friendsB = network(b)
-//
-//    network + (a -> (friendsA + b)) + (b -> (friendsB + a))
-//  }
-//
-//  def unfriend(network: Map[String, Set[String]], a: String, b: String): Map[String, Set[String]] = {
-//    val friendsA = network(a)
-//    val friendsB = network(b)
-//
-//    network + (a -> (friendsA - b)) + (b -> (friendsB - a))
-//  }
-//
-//  def remove(network: Map[String, Set[String]], person: String): Map[String, Set[String]] = {
-//    def removeAux(friends: Set[String], networkAcc: Map[String, Set[String]]): Map[String, Set[String]] =
-//      if (friends.isEmpty) networkAcc
-//      else removeAux(friends.tail, unfriend(networkAcc, person, friends.head))
-//
-//    val unfriended = removeAux(network(person), network)
-//    unfriended - person
-//  }
-//
-//  val empty: Map[String, Set[String]] = Map()
-//  val network = add(add(empty, "Ramesh"), "Tanuja")
-//  println(network)
-//  println(friend(network, "Ramesh", "Tanuja"))
-//  println(unfriend(friend(network, "Ramesh", "Tanuja"), "Ramesh", "Tanuja"))
-//  println(remove(friend(network, "Ramesh", "Tanuja"), "Ramesh"))
-//
-//  // Jim,Bob,Mary
-//  val people = add(add(add(empty, "Ramesh"), "Tanuja"), "Rishabh")
-//  val jimBob = friend(people, "Ramesh", "Rishabh")
-//  val testNet = friend(jimBob, "Ramesh", "Tanuja")
-//
-//  println(testNet)
-//
-//  def nFriends(network: Map[String, Set[String]], person: String): Int =
-//    if (!network.contains(person)) 0
-//    else network(person).size
-//
-//  println(nFriends(testNet, "Ramesh"))
-//
-//  def mostFriends(network: Map[String, Set[String]]): String =
-//    network.maxBy(pair => pair._2.size)._1
-//
-//  println(mostFriends(testNet))
-//
-//  def nPeopleWithNoFriends(network: Map[String, Set[String]]): Int =
-//    network.count(_._2.isEmpty)
-//
-//  println(nPeopleWithNoFriends(testNet))
-//
-//  def socialConnection(network: Map[String, Set[String]], a: String, b: String): Boolean = {
-//    @tailrec
-//    def bfs(target: String, consideredPeople: Set[String], discoveredPeople: Set[String]): Boolean = {
-//      if (discoveredPeople.isEmpty) false
-//      else {
-//        val person = discoveredPeople.head
-//        if (person == target) true
-//        else if (consideredPeople.contains(person)) bfs(target, consideredPeople, discoveredPeople.tail)
-//        else bfs(target, consideredPeople + person, discoveredPeople.tail ++ network(person))
-//      }
-//    }
-//
-//    bfs(b, Set(), network(a) + a)
-//  }
-//
-//  println(socialConnection(testNet, "Tanuja", "Rishabh"))
-//  println(socialConnection(network, "Tanuja", "Ramesh"))
 
+  /*
+  Exercise:
+
+    1.  What would happen if I had two original entries "Rishabh" -> 555 and "RISHABH" -> 900
+        and invoke println(phonebook.map(pair => pair._1.toLowerCase -> pair._2))
+
+        !!! careful with mapping keys.
+
+    2.  Overly simplified social network based on maps
+        Person = String
+        - add a person to the network
+        - remove a person from the network
+        - friend (mutual)
+        - unfriend
+
+        - number of friends of a person
+        - person with most friends
+        - how many people have NO friends
+        - if there is a social connection between two people (direct or not)
+   */
+  // add a new person to the social network database
+  def addToNetwork(network: Map[String, Set[String]], person: String): Map[String, Set[String]] = {
+    network + (person -> Set())
+  }
+
+  // friend (mutual)
+  def friend(network: Map[String, Set[String]], person1: String, person2: String): Map[String, Set[String]] = {
+    val friendListOfPerson1 = network(person1)
+    val friendListOfPerson2 = network(person2)
+
+    network + (person1 -> (friendListOfPerson1 + person2)) + (person2 -> (friendListOfPerson2 + person1))
+  }
+
+  // Remove each other from their friend list
+  def unFriend(network: Map[String, Set[String]], person1: String, person2: String): Map[String, Set[String]] = {
+    val friendListOfPerson1 = network(person1)
+    val friendListOfPerson2 = network(person2)
+
+    network + (person1 -> (friendListOfPerson1 - person2)) + (person2 -> (friendListOfPerson2 - person1))
+  }
+
+  // remove a person from the network
+  def remove(network: Map[String, Set[String]], person: String): Map[String, Set[String]] = {
+    // Step 1: Remove this person from other person's friend list
+    // Step 2: Remove the person from the Map Key and return the network
+    // network.view.mapValues(friendList => friendList - person).toMap - person
+
+    // using unFriend()
+    def removeFromNetworkHelper(updatedNetwork: Map[String, Set[String]], friends: Set[String]): Map[String, Set[String]] = {
+      if(friends.isEmpty) updatedNetwork
+      else removeFromNetworkHelper(unFriend(updatedNetwork, person, friends.head), friends.tail)
+    }
+
+    // Remove mutual friends from network recursively
+    val unFriended = removeFromNetworkHelper(network, network(person))
+
+    // remove person key from the map and return the map
+    unFriended - person
+  }
+
+  // number of friends of a person
+  def nFrieds(network: Map[String, Set[String]], person: String): Int = {
+    if(network.isEmpty || !network.contains(person)) 0
+    else
+    network(person).size
+  }
+
+  // return the person name who have max number of friends
+  def mostFriends(network: Map[String, Set[String]]): String = {
+    // approach 1
+    /*var pair = "" -> 0
+    network.view.foreach(p => {
+      if(p._2.size > pair._2) pair =  p._1 -> p._2.size
+    })
+    pair._1*/
+
+    // better approach
+    network.maxBy(pair => pair._2.size)._1
+  }
+
+  // how many people have no friends
+  def countPeopleWithoutFriends(network: Map[String, Set[String]]): Int = {
+    // network.view.filter(pair => pair._2.isEmpty).size
+    // network.view.filterKeys(k => network(k).isEmpty).size
+   // network.count(pair => pair._2.isEmpty)
+   network.count(_._2.isEmpty)
+  }
+
+  // if 2 people have network connections
+  def haveMutualFriends(network: Map[String, Set[String]], person1: String, person2: String): Boolean = {
+    @tailrec
+    def bfs(target: String, consideredPeople: Set[String], discoveredPeople: Set[String]): Boolean = {
+      if(discoveredPeople.isEmpty) false
+      else { 
+        val person = discoveredPeople.head
+        if(target == person) true
+        else if(consideredPeople.contains(person)) bfs(target, consideredPeople, discoveredPeople.tail)
+        else bfs(target, consideredPeople + person, discoveredPeople.tail ++ network(person))
+      } 
+    }
+
+    bfs(person2, Set(), network(person1) + person1)
+  }
+
+  val empty: Map[String, Set[String]] = Map()
+  val network = addToNetwork(addToNetwork(empty, "Ramesh"), "Tanuja")
+  println(network)
+
+  println(friend(network, "Ramesh", "Tanuja"))
+  println(unFriend(friend(network, "Ramesh", "Tanuja"), "Ramesh", "Tanuja"))
+  println(remove(friend(network, "Ramesh", "Tanuja"), "Ramesh"))
+
+  // Add 3 people in network Mohit, Raghu, Suresh
+  val people = addToNetwork(addToNetwork(addToNetwork(empty, "Mohit"), "Raghu"), "Suresh")
+  val mohitRaghu = friend(people, "Mohit", "Raghu")
+  val testNetwork = friend(mohitRaghu, "Mohit", "Suresh")
+
+  println(testNetwork)
+  println(nFrieds(empty, "Mohit"))
+  println(nFrieds(testNetwork, "Mohit"))
+  println(mostFriends(testNetwork))
+  println(countPeopleWithoutFriends(addToNetwork(testNetwork, "Tushar")))
+  println(haveMutualFriends(testNetwork, "Mohit", "Raghu"))
+  println(haveMutualFriends(testNetwork, "Suresh", "Raghu"))
+  println(haveMutualFriends(addToNetwork(testNetwork, "Tushar"), "Suresh", "Tushar"))
+  println(haveMutualFriends(network, "Ramesh", "Tanuja"))
 }
