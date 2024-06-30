@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Tuples and Maps">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/Options.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/Sequences.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/Sequences.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/TuplesAndMaps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/TuplesAndMaps.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +107,7 @@
     "Application.MethodAnnotations.executor": "Run",
     "Application.OOBasics.executor": "Debug",
     "Application.Objects.executor": "Run",
+    "Application.Options.executor": "Run",
     "Application.PackagingAndImports.executor": "Run",
     "Application.Playground.executor": "Run",
     "Application.Recursion.executor": "Run",
@@ -146,7 +146,7 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.TuplesAndMaps">
+  <component name="RunManager" selected="Application.Options">
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.exercises.ListTest" />
       <module name="scala-part1" />
@@ -166,6 +166,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Options" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.Options" />
+      <module name="scala-part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,26 +212,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.concepts.functionalprogramming.MapFlatMapFilterFor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.MapFlatMapFilterFor" />
-      <module name="scala-part1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Options" />
         <item itemvalue="Application.TuplesAndMaps" />
         <item itemvalue="Application.Sequences" />
         <item itemvalue="Application.MaybeTest" />
         <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.practice.concepts.functionalprogramming.MapFlatMapFilterFor" />
       </list>
     </recent_temporary>
   </component>
@@ -562,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719680725757</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Tuples and Maps">
+      <option name="closed" value="true" />
+      <created>1719748593956</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1719748593956</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
