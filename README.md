@@ -1,4 +1,4 @@
-# scala-part1
+# scala-basics
 
 # Use below command to push a local repository into git-hub
  1. Create a new branch into git-hub account with the same name as your local repository

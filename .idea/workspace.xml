@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Tuples and Maps">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/Options.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Option, methods in option">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scala-part1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,53 +82,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Application.AbstractDataTypes.executor": "Run",
-    "Application.AnonymousClasses.executor": "Run",
-    "Application.AnonymousFunctions.executor": "Run",
-    "Application.CBNvsCBV.executor": "Run",
-    "Application.CaseClasses (1).executor": "Run",
-    "Application.CaseClasses.executor": "Run",
-    "Application.DefaultArgs.executor": "Run",
-    "Application.Enums.executor": "Run",
-    "Application.Exceptions.executor": "Debug",
-    "Application.ExceptionsInScala.executor": "Run",
-    "Application.Expressions.executor": "Debug",
-    "Application.Functions.executor": "Debug",
-    "Application.Generics.executor": "Run",
-    "Application.HigherOrderFunctionsAndCurries.executor": "Run",
-    "Application.InheritanceAndTraits.executor": "Debug",
-    "Application.JavaPlayGround (1).executor": "Run",
-    "Application.JavaPlayGround (2).executor": "Run",
-    "Application.JavaPlayGround.executor": "Run",
-    "Application.ListTest.executor": "Run",
-    "Application.MapFlatMapFilterFor.executor": "Debug",
-    "Application.MaybeTest.executor": "Run",
-    "Application.MethodAnnotations.executor": "Run",
-    "Application.OOBasics.executor": "Debug",
-    "Application.Objects.executor": "Run",
-    "Application.Options.executor": "Run",
-    "Application.PackagingAndImports.executor": "Run",
-    "Application.Playground.executor": "Run",
-    "Application.Recursion.executor": "Run",
-    "Application.Sequences.executor": "Run",
-    "Application.StringOps.executor": "Run",
-    "Application.Test.executor": "Debug",
-    "Application.TuplesAndMaps.executor": "Run",
-    "Application.WhatIsFunction.executor": "Debug",
-    "Application.practice.concepts.functionalprogramming.MapFlatMapFilterFor.executor": "Run",
-    "Application.practice.concepts.oops.PackagingAndImports.executor": "Run",
-    "Application.stringManipulation.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/rmishra/Courses/scala/scala-part1/src/main/resources/quick-review",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Application.AbstractDataTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnonymousClasses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AnonymousFunctions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CBNvsCBV.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CaseClasses (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CaseClasses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DefaultArgs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Enums.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exceptions.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ExceptionsInScala.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Expressions.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Functions.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Generics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HigherOrderFunctionsAndCurries.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InheritanceAndTraits.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.JavaPlayGround (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaPlayGround (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaPlayGround.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapFlatMapFilterFor.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaybeTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodAnnotations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OOBasics.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Objects.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Options.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PackagingAndImports.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Playground.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sequences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringOps.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TuplesAndMaps.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WhatIsFunction.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.practice.concepts.functionalprogramming.MapFlatMapFilterFor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.practice.concepts.oops.PackagingAndImports.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stringManipulation.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rmishra/Courses/scala/scala-part1/src/main/resources/quick-review&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/quick-review" />
@@ -146,23 +148,10 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.Options">
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.exercises.ListTest" />
-      <module name="scala-part1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WhatIsFunction">
     <configuration name="MaybeTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.exercises.MaybeTest" />
-      <module name="scala-part1" />
+      <module name="scala-basics" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.exercises.*" />
@@ -175,7 +164,7 @@
     </configuration>
     <configuration name="Options" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.Options" />
-      <module name="scala-part1" />
+      <module name="scala-basics" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
@@ -188,7 +177,7 @@
     </configuration>
     <configuration name="Sequences" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.Sequences" />
-      <module name="scala-part1" />
+      <module name="scala-basics" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
@@ -201,7 +190,20 @@
     </configuration>
     <configuration name="TuplesAndMaps" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.TuplesAndMaps" />
-      <module name="scala-part1" />
+      <module name="scala-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhatIsFunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.WhatIsFunction" />
+      <module name="scala-basics" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
@@ -214,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhatIsFunction" />
         <item itemvalue="Application.Options" />
         <item itemvalue="Application.TuplesAndMaps" />
         <item itemvalue="Application.Sequences" />
         <item itemvalue="Application.MaybeTest" />
-        <item itemvalue="Application.ListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -570,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719748593956</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Option, methods in option">
+      <option name="closed" value="true" />
+      <created>1719763970111</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1719763970111</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -585,7 +595,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Object-Oriented basics in Scala" />
     <MESSAGE value="Method annotations in scala" />
     <MESSAGE value="Add readability comments" />
     <MESSAGE value="Scala object vs class" />
@@ -610,7 +619,8 @@
     <MESSAGE value="map, flatMap, filter and for-comprehensive" />
     <MESSAGE value="Sequences: List, Array, Vector" />
     <MESSAGE value="Tuples and Maps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tuples and Maps" />
+    <MESSAGE value="Option, methods in option" />
+    <option name="LAST_COMMIT_MESSAGE" value="Option, methods in option" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
