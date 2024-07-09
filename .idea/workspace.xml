@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Pattern Matching">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/patternmatching/AllThePatterns.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="All patterns">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/patternmatching/PatternsEverywhere.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +113,7 @@
     "Application.PatternMatching.executor": "Run",
     "Application.PatternMatching1.executor": "Run",
     "Application.PatternMatching2.executor": "Run",
+    "Application.PatternsEverywhere.executor": "Run",
     "Application.Playground.executor": "Run",
     "Application.Recursion.executor": "Run",
     "Application.Sequences.executor": "Run",
@@ -150,26 +151,13 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.AllThePatterns">
+  <component name="RunManager" selected="Application.PatternsEverywhere">
     <configuration name="AllThePatterns" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.concepts.patternmatching.AllThePatterns" />
       <module name="scala-basics" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.concepts.patternmatching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HandlingFailure" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.HandlingFailure" />
-      <module name="scala-basics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,13 +204,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PatternsEverywhere" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.concepts.patternmatching.PatternsEverywhere" />
+      <module name="scala-basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.concepts.patternmatching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternsEverywhere" />
         <item itemvalue="Application.AllThePatterns" />
         <item itemvalue="Application.PatternMatching2" />
         <item itemvalue="Application.PatternMatching1" />
         <item itemvalue="Application.PatternMatching" />
-        <item itemvalue="Application.HandlingFailure" />
       </list>
     </recent_temporary>
   </component>
@@ -606,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720495675481</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="All patterns">
+      <option name="closed" value="true" />
+      <created>1720499481842</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1720499481842</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -621,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Access modifiers, constructors, overloading, overriding, super, final, trait, case and sealed in Scala" />
     <MESSAGE value="trait vs abstract class, scala type hierarchy" />
     <MESSAGE value="Custom list implementation | version 1" />
     <MESSAGE value="#clean-up" />
@@ -646,7 +654,8 @@
     <MESSAGE value="Renaming repository" />
     <MESSAGE value="Handling Failure" />
     <MESSAGE value="Pattern Matching" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pattern Matching" />
+    <MESSAGE value="All patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="All patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
