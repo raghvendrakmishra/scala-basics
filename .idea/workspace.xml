@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Renaming repository">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/functionalprogramming/HandlingFailure.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="Handling Failure">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/patternmatching/PatternMatching1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/patternmatching/PatternMatching2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +111,9 @@
     "Application.Objects.executor": "Run",
     "Application.Options.executor": "Run",
     "Application.PackagingAndImports.executor": "Run",
+    "Application.PatternMatching.executor": "Run",
+    "Application.PatternMatching1.executor": "Run",
+    "Application.PatternMatching2.executor": "Run",
     "Application.Playground.executor": "Run",
     "Application.Recursion.executor": "Run",
     "Application.Sequences.executor": "Run",
@@ -147,7 +151,7 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.HandlingFailure">
+  <component name="RunManager" selected="Application.PatternMatching2">
     <configuration name="HandlingFailure" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.HandlingFailure" />
       <module name="scala-basics" />
@@ -161,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Options" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.Options" />
+    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.concepts.patternmatching.PatternMatching" />
       <module name="scala-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
+          <option name="PATTERN" value="practice.concepts.patternmatching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sequences" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.Sequences" />
+    <configuration name="PatternMatching1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.concepts.patternmatching.PatternMatching1" />
       <module name="scala-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
+          <option name="PATTERN" value="practice.concepts.patternmatching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TuplesAndMaps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.concepts.functionalprogramming.TuplesAndMaps" />
+    <configuration name="PatternMatching2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.concepts.patternmatching.PatternMatching2" />
       <module name="scala-basics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice.concepts.functionalprogramming.*" />
+          <option name="PATTERN" value="practice.concepts.patternmatching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternMatching2" />
+        <item itemvalue="Application.PatternMatching1" />
+        <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.HandlingFailure" />
         <item itemvalue="Application.WhatIsFunction" />
-        <item itemvalue="Application.Options" />
-        <item itemvalue="Application.TuplesAndMaps" />
-        <item itemvalue="Application.Sequences" />
       </list>
     </recent_temporary>
   </component>
@@ -587,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719805370924</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Handling Failure">
+      <option name="closed" value="true" />
+      <created>1719808994128</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1719808994128</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -602,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add readability comments" />
     <MESSAGE value="Scala object vs class" />
     <MESSAGE value="Access modifiers, constructors, overloading, overriding, super, final, trait, case and sealed in Scala" />
     <MESSAGE value="trait vs abstract class, scala type hierarchy" />
@@ -627,7 +638,8 @@
     <MESSAGE value="Tuples and Maps" />
     <MESSAGE value="Option, methods in option" />
     <MESSAGE value="Renaming repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renaming repository" />
+    <MESSAGE value="Handling Failure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handling Failure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
