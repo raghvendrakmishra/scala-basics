@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="All patterns">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/patternmatching/PatternsEverywhere.scala" afterDir="false" />
+    <list default="true" id="a88920b7-cb13-45ad-87cc-055a8fc3f32c" name="Changes" comment="patterns everywhere">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/practice/concepts/patternmatching/BracelessSyntax.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +87,7 @@
     "Application.AllThePatterns.executor": "Run",
     "Application.AnonymousClasses.executor": "Run",
     "Application.AnonymousFunctions.executor": "Run",
+    "Application.BracelessSyntax.executor": "Run",
     "Application.CBNvsCBV.executor": "Run",
     "Application.CaseClasses (1).executor": "Run",
     "Application.CaseClasses.executor": "Run",
@@ -151,7 +153,7 @@
       <visibility group="sbt" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.PatternsEverywhere">
+  <component name="RunManager" selected="Application.BracelessSyntax">
     <configuration name="AllThePatterns" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="practice.concepts.patternmatching.AllThePatterns" />
       <module name="scala-basics" />
@@ -165,8 +167,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="practice.concepts.patternmatching.PatternMatching" />
+    <configuration name="BracelessSyntax" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="practice.concepts.patternmatching.BracelessSyntax" />
       <module name="scala-basics" />
       <extension name="coverage">
         <pattern>
@@ -219,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BracelessSyntax" />
         <item itemvalue="Application.PatternsEverywhere" />
         <item itemvalue="Application.AllThePatterns" />
         <item itemvalue="Application.PatternMatching2" />
         <item itemvalue="Application.PatternMatching1" />
-        <item itemvalue="Application.PatternMatching" />
       </list>
     </recent_temporary>
   </component>
@@ -615,7 +617,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720499481842</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="patterns everywhere">
+      <option name="closed" value="true" />
+      <created>1720541880009</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1720541880009</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -630,7 +640,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="trait vs abstract class, scala type hierarchy" />
     <MESSAGE value="Custom list implementation | version 1" />
     <MESSAGE value="#clean-up" />
     <MESSAGE value="Add generics in Scala. Make MyList a to support generic collection" />
@@ -655,7 +664,8 @@
     <MESSAGE value="Handling Failure" />
     <MESSAGE value="Pattern Matching" />
     <MESSAGE value="All patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="All patterns" />
+    <MESSAGE value="patterns everywhere" />
+    <option name="LAST_COMMIT_MESSAGE" value="patterns everywhere" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
